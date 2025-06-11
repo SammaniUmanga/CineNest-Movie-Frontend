@@ -1,0 +1,47 @@
+.movie-detail {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.detail-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.movie-detail img {
+  width: 300px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.info {
+  flex: 1;
+  min-width: 250px;
+  line-height: 1.6;
+}
+
+.movie-detail a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.movie-detail a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  font-style: italic;
+  color: #ccc;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
